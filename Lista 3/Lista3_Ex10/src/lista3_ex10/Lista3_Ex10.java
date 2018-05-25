@@ -13,11 +13,11 @@ public class Lista3_Ex10 {
 
         int cont = 0;
 
-        for (int i = 1; i <= 9999; i++) {
+        for (int i = 1; i <= 999999; i++) {
             
             int contador = 0;
             
-            for (int x = 1; x <= 9999; x++) {
+            for (int x = 1; x <= 999999; x++) {
                 if (i % x == 0) {
                     contador = contador + 1;
                 }
